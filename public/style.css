@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    width: min(700px, 90%);
+    margin: 80px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.downloader-card {
+    background: #181818;
+    border: 1px solid #303030;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+input[type="url"],
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 22px;
+    background: #101010;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+}
+
+input:focus {
+    border-color: #777;
+}
+
+.time-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#status {
+    text-align: center;
+    margin-top: 15px;
+    color: #aaa;
+}
